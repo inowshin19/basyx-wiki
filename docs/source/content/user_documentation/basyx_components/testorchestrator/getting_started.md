@@ -1,9 +1,9 @@
-# Test Orchestrator
+[Back to Overview](index.md) | [Next: System Components](system_components.md)
 
-[Back to Overview](index.md) · [Next: Validation Logic](validation_logic.md)
+# 🚀 Getting Started
 
----
 
+# 🛠 Getting Started with the Test Orchestrator
 ## Overview
 
 The **Test Orchestrator** is a Java/Spring Boot validation engine that automates the verification of AAS (Asset Administration Shell) Submodels against IDTA‑compliant templates. It ensures **structural integrity** and **semantic correctness** by matching uploaded Submodels to reference schemas (via `SemanticId`) and running a recursive, rule‑based check across all elements.
@@ -31,7 +31,7 @@ The orchestrator is designed for **production use**: it validates on every creat
 
 ---
 
-## System Architecture (Paper‑Aligned)
+## System Architecture 
 
 At a high level, the orchestrator integrates with the BaSyx Submodel Repository, listens to MQTT events, deserializes incoming Submodels, performs template matching and recursive comparison, and stores the outcome as result Submodels.
 
@@ -91,3 +91,7 @@ For deeper details, continue to [Validation Logic](validation_logic.md).
 - Learn how to **add new templates and rules** in [Extending Validation](features/extending.md).  
 - See the full **architecture/methodology** in the scientific page (paper‑style) if included in your wiki.
 
+
+---
+
+[Back to Overview](index.md) | [Next: System Components](../system_components.md)

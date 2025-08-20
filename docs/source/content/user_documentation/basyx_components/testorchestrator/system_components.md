@@ -1,6 +1,7 @@
----
 [Back: Getting Started](getting_started.md) | [Next: Validation Logic](validation_logic.md)
----
+
+# 🧱 System Components
+
 
 # 🧩 System Components of the Test Orchestrator
 This section provides an overview of the main components involved in the Test Orchestrator architecture and how they interact to validate AAS Submodels.

@@ -1,8 +1,7 @@
----
 [Back: Recursive Validation](recursive_validation.md) | [Next: Extending Validation](features/extending.md)
----
 
 # 📊 Results Visualization
+
 
 All validation results are persisted in dedicated Submodels:
 
