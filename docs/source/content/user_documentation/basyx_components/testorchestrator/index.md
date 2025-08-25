@@ -1,5 +1,6 @@
-# Test Orchestrator
+# 📦 Test Orchestrator Documentation
 
+<<<<<<< Updated upstream
 Welcome to the documentation for the BaSyx Test Orchestrator.
 This module provides automated validation for Asset Administration Shell (AAS) submodels.
 
@@ -36,11 +37,37 @@ It provides:
 - Integration with MQTT for real-time submodel event monitoring
 - Result reporting via standardized submodels
 - Support for extensible schemas and rule sets
+=======
+Welcome to the documentation for the **BaSyx Test Orchestrator**.  
+This module provides automated structural and semantic validation for Asset Administration Shell (AAS) Submodels.
+>>>>>>> Stashed changes
 
 ---
 
-## Architecture
+## 📖 Documentation Structure
 
+### 🚀 1. [Getting Started](getting_started.md)
+Learn how to install, configure, and launch the Test Orchestrator.
+
+### 🧱 2. [System Components](system_components.md)
+Overview of the architecture and the key components involved in the validation process.
+
+### 🔁 3. [Validation Logic](validation_logic.md)
+Explore the validation flow, including deserialization, recursive comparison, and rule application.
+
+### 🔍 4. [Recursive Validation](recursive_validation.md)
+Detailed explanation of how nested SubmodelElementCollections are handled.
+
+### 📊 5. [Results Visualization](results_visualization.md)
+Learn how validation results are generated, stored, and viewed via the BaSyx UI.
+
+### 🧩 6. [Extending Validation](features/extending.md)
+How to add new schema templates or implement custom validation logic.
+
+### 💾 7. [MongoDB Integration](features/mongodbintegration.md)
+Optional feature for storing validation logs and results in MongoDB.
+
+<<<<<<< Updated upstream
 The Test Orchestrator integrates with the BaSyx Submodel Repository and listens for submodel creation, update, and deletion events via MQTT.
 
 ```{figure} ./images/architecture.png
@@ -51,12 +78,21 @@ name: architecture
 ---
 ```
 
+=======
+>>>>>>> Stashed changes
 ---
 
-## References
+## 🔗 Related Modules
+
+- [BaSyx Submodel Repository](../submodel_repository/index.md)
+- [AAS Web UI](../web_ui/index.md)
+
+---
+
+## 📚 References
 
 - [IDTA Submodel Templates](https://github.com/admin-shell-io/submodel-templates)
 - [Eclipse BaSyx Documentation](https://wiki.basyx.org/en/latest/)
 - [AASX Package Explorer](https://github.com/admin-shell-io/aasx-package-explorer)
 
-[Next: Getting Started](getting_started.md)
+---

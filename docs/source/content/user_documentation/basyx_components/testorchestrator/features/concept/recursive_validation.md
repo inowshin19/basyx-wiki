@@ -1,8 +1,8 @@
----
 [Back: Validation Logic](validation_logic.md) | [Next: Results Visualization](results_visualization.md)
----
+
 
 # 🔁 Recursive Validation
+
 
 Recursive validation ensures structural and semantic correctness of nested SubmodelElementCollections.
 
