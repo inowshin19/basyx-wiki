@@ -1,6 +1,6 @@
 [Back: System Components](system_components.md) | [Next: Recursive Validation](recursive_validation.md)
 
-#  Validation Logic
+# 🔍 Validation Logic
 
 The Test Orchestrator validates submodels in three main steps:
 
@@ -145,6 +145,7 @@ private void processSubmodel(String submodelJson) {
 
 The validation process is also represented in the following sequence diagram, which highlights the interaction between the Submodel Repository, Deserializer, Comparator, Recursion Function, SMEComparator, and the MQTT/Web UI integration.
 
+<<<<<<< Updated upstream:docs/source/content/user_documentation/basyx_components/testorchestrator/features/concept/validation_logic.md
 ```{figure} ./images/ValidationSequence.png
 ---
 width: 100%
@@ -153,6 +154,8 @@ name: ValidationSequence
 ---
 ```
 
+=======
+>>>>>>> Stashed changes:docs/source/content/user_documentation/basyx_components/testorchestrator/validation_logic.md
 This sequence shows:
 - **Upload/Edit** of a Submodel via MQTT/Web UI  
 - **Deserialization** of input and schema JSON files  

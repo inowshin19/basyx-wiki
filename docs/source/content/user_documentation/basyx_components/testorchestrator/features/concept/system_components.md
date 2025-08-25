@@ -1,9 +1,9 @@
 [Back: Getting Started](getting_started.md) | [Next: Validation Logic](validation_logic.md)
 
-#  System Components
+# 🧱 System Components
 
 
-#  System Components of the Test Orchestrator
+# 🧩 System Components of the Test Orchestrator
 This section provides an overview of the main components involved in the Test Orchestrator architecture and how they interact to validate AAS Submodels.
 
 ---
@@ -24,7 +24,7 @@ name: architecture
 
 ---
 
-##  Component Breakdown
+## 🔧 Component Breakdown
 
 ### 1. AAS/Submodel Repository
 Stores the uploaded submodels and triggers events on creation/update/deletion.
@@ -65,7 +65,7 @@ All results—errors, warnings, etc.—are written back to dedicated TestResult 
 
 ---
 
-##  Diagram
+## 🖼 Diagram
 
 The figure below illustrates the orchestration of these components:
 
