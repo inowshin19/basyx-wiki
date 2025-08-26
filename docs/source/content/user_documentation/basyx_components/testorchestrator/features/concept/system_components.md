@@ -1,9 +1,9 @@
 [Back: Getting Started](getting_started.md) | [Next: Validation Logic](validation_logic.md)
 
-# 🧱 System Components
+#  System Components
 
 
-# 🧩 System Components of the Test Orchestrator
+#  System Components of the Test Orchestrator
 This section provides an overview of the main components involved in the Test Orchestrator architecture and how they interact to validate AAS Submodels.
 
 ---
@@ -12,19 +12,12 @@ This section provides an overview of the main components involved in the Test Or
 
 The diagram below outlines the integration between the BaSyx Submodel Repository, AAS Web UI, MQTT Broker, and the Test Orchestrator components.
 
-```{figure} ./images/architecture.png
----
-width: 100%
-alt: architecture
-name: architecture
----
-```
-
-*Figure 3: Architecture of the Test Orchestrator and its integration with BaSyx modules and MQTT*
+![Test Orchestrator Architecture](./images/architecture.png)
+*Architecture of the Test Orchestrator and its integration with BaSyx modules and MQTT*
 
 ---
 
-## 🔧 Component Breakdown
+##  Component Breakdown
 
 ### 1. AAS/Submodel Repository
 Stores the uploaded submodels and triggers events on creation/update/deletion.
@@ -42,7 +35,7 @@ Coordinates the comparison logic using schema matching and validation rules.
 All results—errors, warnings, etc.—are written back to dedicated TestResult submodels.
 
 ---
-
+![Test Orchestrator ValidationWorkflow](./images/ValidationWorkflow.png)
 ## Core Modules
 
 - **Deserializer**  
@@ -65,19 +58,12 @@ All results—errors, warnings, etc.—are written back to dedicated TestResult 
 
 ---
 
-## 🖼 Diagram
 
-The figure below illustrates the orchestration of these components:
+The figure below illustrates the class diagram:
 
-```{figure} ./images/ClassDiagram.png
----
-width: 100%
-alt: ClassDiagram
-name: ClassDiagram
----
-```
+![Core Modules](../images/ClassDiagram.png)
 
 
 ---
 
-[Back: Getting Started](getting_started.md) | [Next: Validation Logic](validation_logic.md)
+[Back: Getting Started](../getting_started/getting_started.md) | [Next: Validation Logic](validation_logic.md)
